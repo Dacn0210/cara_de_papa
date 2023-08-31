@@ -1,0 +1,144 @@
+.fondo{
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    background: rgb(35, 222, 255);
+    margin: 0 auto;
+    z-index: 0;
+}
+
+
+#face{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    z-index: 2;
+
+}
+
+#nose{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    z-index: 5;
+    transition: 1s;
+}
+
+.fondo:hover #nose{
+    transform: scale(1.1);
+}
+
+
+#hat{
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 230px;
+    z-index: 3;
+    transition: 1s;
+}
+
+.fondo:hover #hat{
+    transform: rotate(1040deg) translateX(-60px) translateY(-40px) scale(1.3);
+}
+
+#moustache{
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 560px;
+    z-index: 3;
+    transition: .5s;
+}
+
+.fondo:hover #moustache{
+    transform: translateY(30px);
+}
+
+#eye_left{
+    position: absolute;
+    margin: auto;
+    top: 380px;
+    left: 410px;
+    z-index: 3;
+    transition: 1s;
+}
+
+.fondo:hover #eye_left{
+    transform: translateX(-40px);
+}
+
+#eye_right{
+    position: absolute;
+    margin: auto;
+    top: 380px;
+    left: 490px;
+    z-index: 3;
+    transition: 1s;
+}
+
+.fondo:hover #eye_right{
+    transform: translateX(40px);
+}
+
+#ear_left{
+    position: absolute;
+    right: 0;
+    left: 310px;
+    top: 340px;
+    z-index: 1;
+    transition: 1s;
+}
+
+.fondo:hover #ear_left{
+    transform: translateY(40px);
+}
+
+
+#ear_right{
+    position: absolute;
+    right: 0;
+    left: 590px;
+    top: 340px;
+    z-index: 1;
+    transition: 1s;
+}
+
+.fondo:hover #ear_right{
+    transform: translateY(40px);
+}
+
+#foot_left{
+    position: absolute;
+    right: 0;
+    left: 360px;
+    top: 655px;
+    z-index: 1;
+    transition: 1s;
+}
+
+.fondo:hover #foot_left{
+    transform: translateX(-15px);
+}
+
+#foot_right{
+    position: absolute;
+    right: 0;
+    left: 510px;
+    top: 655px;
+    z-index: 1;
+    transition: 1s;
+}
+
+.fondo:hover #foot_right{
+    transform: translateX(15px);
+}
+
